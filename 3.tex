@@ -1,0 +1,53 @@
+\section{Задание 3. Интегралы Пуассона и Френеля}
+
+\textbf{Условие.}
+
+Вычислите интеграл $K$:
+
+\[\int_0^\infty \frac{\sin\left(\frac{\pi}{2} - t\right)}{\sqrt{t}} dt\]
+
+Замечание. В задачах физики и дифракционной оптики возникают интегралы вида:
+
+\[\int e^{-x^2} dx, \int \frac{\sin(t)}{\sqrt{t}} dt, \int \frac{\cos(t)}{\sqrt{t}} dt\]
+
+которые являются специальными функциями (т.е. \enquote{неберущимися} интегралами).
+
+Однако, переход к \enquote{многомерным} интегралам позволяет вычислить по крайней мере функцию ошибок
+$\Phi(z) = \int_0^z e^{-x^2} dx$ и интегралы Френеля: $\Phi_S(z) = \int_0^z \frac{\sin(t)}{\sqrt{t}} dx$ и $\Phi_C(z) = \frac{\cos(t)}{\sqrt{t}} dx$
+
+\begin{enumerate}
+    \item Вычисление $\int^\infty_0 e^{-x^2} dx = I$:
+    \begin{itemize}
+        \item Заметьте, что $\displaystyle I = \int^\infty_0 e^{-x^2} dx = \int_0^\infty e^{-y^2} dy$
+        Тогда $\displaystyle I^2 = \int^\infty_0 e^{-x^2} dx \int_0^\infty e^{-y^2} dy$ - двукратный интеграл.
+
+        \item Перейдите к полярным координатам и вычислите его.
+    \end{itemize}
+
+    \item Вычисление $\displaystyle \int_0^\infty \frac{\sin(t)}{\sqrt{t}} dt = J$
+    \begin{itemize}
+        \item Используя результат пункта 1), докажите справедливость интегрального представления функции
+        $\displaystyle \frac{2}{\sqrt{\pi}} \int_0^\infty e^{-u^2} du = \frac{1}{\sqrt{t}}$.В интеграле $J$ замените функцию $\frac{1}{\sqrt{t}}$ её интегральным представлением и получите двойной (несобственный) интеграл.
+
+        \item Выберите порядок интегрирования так, чтобы можно было найти первообразную в элементарных функциях.
+        (Смена порядка интегрирования требует обоснования, но в данном случае она разрешена.)
+
+        \item Вычислите интеграл $J$, затем интеграл $K$.
+
+        \item Используя замену переменной и сводя эти интегралы к $J$, вычислите также:
+
+        $\displaystyle \int_0^\infty \sin(x^2) dx$ и $\displaystyle \int_0^\infty \sin(\frac{\pi x^2}{2}) dx$
+
+    \end{itemize}
+
+    \item Нарисуйте графики функции ошибок, интегралов Френеля и их подынтегральных функций.
+
+\end{enumerate}
+
+\vspace{10mm}
+\textbf{Решение.}
+
+It is empty but you can fill it!
+
+\textit{Ответ}: It is empty but you can fill it!
+\clearpage
