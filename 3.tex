@@ -71,22 +71,22 @@ $\Phi(z) = \int_0^z e^{-x^2} dx$ и интегралы Френеля: $\Phi_S(z
             \end{cases}
         \end{equation}
         Найдём Якобиану перевода из ДПСК в ПСК:
-        $\displaystyle J = \begin{matrix}
+        $\displaystyle J = \begin{vmatrix}
             \frac{\partial x}{\partial \rho} & \frac{\partial x}{\partial \varphi} \\
             \frac{\partial y}{\partial \rho} & \frac{\partial y}{\partial \varphi}
-        \end{matrix} = 
-        \begin{matrix}
+        \end{vmatrix} =
+        \begin{vmatrix}
             \frac{\partial (\cos\varphi \cdot \rho)}{\partial \rho} & \frac{\partial (\cos\varphi \cdot \rho)}{\partial \varphi} \\
             \frac{\partial (\sin\varphi \cdot \rho)}{\partial \rho} & \frac{\partial (\sin\varphi \cdot \rho)}{\partial \varphi}
-        \end{matrix} =
-        \begin{matrix}
+        \end{vmatrix} =
+        \begin{vmatrix}
             \cos\varphi & -\sin\varphi \cdot \rho \\
             \sin\varphi & \cos\varphi \cdot \rho
-        \end{matrix} =
-        \rho \begin{matrix}
+        \end{vmatrix} =
+        \rho \begin{vmatrix}
             \cos\varphi & -\sin\varphi \\
             \sin\varphi & \cos\varphi 
-        \end{matrix} = \rho$
+        \end{vmatrix} = \rho$
 
         Преобразуем двойной интеграл в ПСК: \\
         $\displaystyle I^2 =
